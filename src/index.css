@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background: linear-gradient(lightBlue,pink,lightYellow);
+  height: 100vh;
+
+}
+.heading{
+  text-shadow: 3px 3px 3px aqua;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.btn1{
+  height: 50px;
+  width: 270px;
+  border-radius: 50px;
+  background-color: lightblue;
+  position: relative;
+  top: 50px;
+  /* left: -70px; */
+  margin-left: 360px;
+}
+.btn1:hover{
+  background-color: aqua;
+}
+.btn2{
+  height: 50px;
+  width: 270px;
+  border-radius: 50px;
+  background-color: lightblue;
+  position: relative;
+  top: 50px;
+  left: 30px;
+
+}
+.btn2:hover{
+  background-color: aqua;
+}
+.Functional{
+  width: 500px;
+  height: 280px;
+  background-color: aqua;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-top: 150px;
+  margin-left: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 50px;
+  position: absolute;
+}
+.Cfirst{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.Class{
+  width: 500px;
+  height: 280px;
+  background: rgb(206, 109, 206);
+  border: 5px solid black;
+  border-radius: 25px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 750px;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+}
